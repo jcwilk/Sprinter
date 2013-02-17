@@ -118,7 +118,7 @@ const bool DISABLE_E = false;
 // Inverting axis direction
 //-----------------------------------------------------------------------
 const bool INVERT_X_DIR = true;
-const bool INVERT_Y_DIR = false;
+const bool INVERT_Y_DIR = true;
 const bool INVERT_Z_DIR = true;
 const bool INVERT_E_DIR = false;
 
@@ -127,7 +127,7 @@ const bool INVERT_E_DIR = false;
 //-----------------------------------------------------------------------
 // Sets direction of endstops when homing; 1=MAX, -1=MIN
 #define X_HOME_DIR -1
-#define Y_HOME_DIR -1
+#define Y_HOME_DIR 1
 #define Z_HOME_DIR -1
 
 //#define ENDSTOPS_ONLY_FOR_HOMING // If defined the endstops will only be used for homing
